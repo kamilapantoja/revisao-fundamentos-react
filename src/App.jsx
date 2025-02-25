@@ -9,10 +9,10 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div class="app">
+    <div className="app">
       <h1>Fundamentos React</h1>
       <FirstComponent />
-      <div class="professional">
+      <div className="professional">
         <TemplateExpression />
       </div>
       <div>
