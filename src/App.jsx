@@ -4,6 +4,7 @@ import TemplateExpression from "./components/TemplateExpressions";
 import "./App.css";
 import ManageData from "./components/ManageData";
 import ListaRender from "./components/ListaRender";
+import CondicionalRender from "./components/CondicionalRender";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,6 +19,7 @@ function App() {
       <div>
         <ManageData />
         <ListaRender />
+        <CondicionalRender />
       </div>
     </div>
   );
